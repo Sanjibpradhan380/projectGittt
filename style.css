@@ -9,43 +9,27 @@ html, body{
     width: 100%;
 }
 
-body{
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-main{
+#main{
+    height: 100%;
     width: 100%;
-    padding: 30px;
-    background-color: #000;
+    background-color: #18212d;
+    cursor: none;
     display: flex;
-    gap: 10px;
+    align-items: center;
+    justify-content: center;
 }
-.card{
-    width: 250px;
-    background-color: white;
-    border-radius: 7px;
-    padding: 20px; 
-    text-align: center;
+#cursor{
+    color: red;
+    height: 30px;
+    font-size: 30px;
+    position: absolute;
 }
-.card img{
-    width: 150px;
-    border-radius: 7px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
-.card h3{
-    font-size: 26px;
-    white-space: nowrap;
-}
-.card h4{
-    font-size: 18px;
-    color: crimson;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.card p{
-    font-size: 14px;
+
+#box{
+   width: fit-content;
+   border-radius: 10px;
+    font-size: 50px;
+    padding: 20px 30px ;
+    color: #333;
+    background-color: lightblue;
 }
